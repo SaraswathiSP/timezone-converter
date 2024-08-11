@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .light {
+    background-color: #f4f4f4;
+    color: #000000;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls button {
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .timezone-list {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-meet {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .schedule-meet:hover {
+    background-color: #0056b3;
+  }
+  
+  .date-picker-container {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  
+  .custom-input {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: inherit;
+    border-radius: 4px;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .app.light .custom-input:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .app.dark .custom-input:hover {
+    background-color: #333;
+  }
+  
